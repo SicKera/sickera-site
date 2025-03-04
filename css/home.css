@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#cabecalho {
+    width: 100vw;
+    height: 150px;
+    padding: 30px 5%;
+    background-color: rgb(88, 88, 88);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#logotipo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(61, 61, 61);
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+}
+
+li, a {
+    
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(179, 255, 2);
+}
